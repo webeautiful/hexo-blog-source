@@ -28,7 +28,7 @@ yarn add hexo-deployer-git # hexo deploy失败时，安装此插件可解决
 * 主题目录, 如: `themes/next`
 * `_config.yml`配置, 如: `theme: next` 
 
-###启动开发环境
+### 启动开发环境
 ```bash
 $ hexo s --debug
 ```
