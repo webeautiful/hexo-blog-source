@@ -19,12 +19,19 @@ yarn add hexo-deployer-git # hexo deploy失败时，安装此插件可解决
 
 ```
 
-### 配置
-#### CNAME
-* `_config.yml`配置, 如: `url: http://www.etuai.com`
+#### 配置CNAME
 * CNAME文件放在`source/`目录下
-#### `themes/landscape`
-* `_config.yml`配置, 如: `theme: landscape` 
+* `_config.yml`配置, 如: `url: http://www.etuai.com`
+#### 配置themes
+* 创建`themes`目录
+* 安装主题`git clone https://github.com/iissnan/hexo-theme-next.git themes/next`
+* 主题目录, 如: `themes/next`
+* `_config.yml`配置, 如: `theme: next` 
+
+###启动开发环境
+```bash
+$ hexo s --debug
+```
 
 ### 添加新文章
 ```bash
